@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 3.0.4 (Python 3.6.5 on win32)" generated="20181121 13:56:26.845">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Tc.Alite Chrome" source="C:\Automação\Pabot Projeto A.Lite\Test\tc.alite_chrome.robot">
+<test id="s1-s1-t1" name="CT01: login Usuário Inválido">
+<kw name="Usuário inválido, senha válida no chrome" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.486" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.486" endtime="20181121 13:56:26.486"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.484" endtime="20181121 13:56:26.486"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.484" endtime="20181121 13:56:26.486" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s1-t2" name="CT02: login Senha Inválida">
+<kw name="Usuário válido, senha inválida no chrome" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.488" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.488" endtime="20181121 13:56:26.488"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.486" endtime="20181121 13:56:26.488"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.486" endtime="20181121 13:56:26.488" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s1-t3" name="CT03: login Caracteres especiais">
+<kw name="Usuário caracteres Especiais, senha caracteres Especiais no chrome" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.490" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.490" endtime="20181121 13:56:26.490"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.488" endtime="20181121 13:56:26.490"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.488" endtime="20181121 13:56:26.490" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s1-t4" name="CT04: login não preenchido">
+<kw name="Não informar Usuário e não informar senha no chrome" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.492" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.492" endtime="20181121 13:56:26.492"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.490" endtime="20181121 13:56:26.492"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.490" endtime="20181121 13:56:26.492" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s1-t5" name="CT05: login efetuado com sucesso">
+<kw name="Usuário válido, senha válida no chrome" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.494" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.494" endtime="20181121 13:56:26.494"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.492" endtime="20181121 13:56:26.494"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.492" endtime="20181121 13:56:26.494" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s1-t6" name="CT06: login efetuado com sucesso 2">
+<kw name="Usuário válido, senha válida 2 no chrome" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.496" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.496" endtime="20181121 13:56:26.496"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.494" endtime="20181121 13:56:26.496"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.494" endtime="20181121 13:56:26.496" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s1-t7" name="CT07: Navegação Lista de exames">
+<kw name="Efetuar Login no A.Lite com chrome" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.498" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.498" endtime="20181121 13:56:26.498"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.496" endtime="20181121 13:56:26.498"></status>
+</kw>
+<tags>
+<tag>Navegação</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.496" endtime="20181121 13:56:26.498" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s1-t8" name="CT08: Navegação Configurações">
+<kw name="Na página home ao logar no chrome" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.500" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.500" endtime="20181121 13:56:26.500"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.498" endtime="20181121 13:56:26.500"></status>
+</kw>
+<tags>
+<tag>Navegação</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.498" endtime="20181121 13:56:26.500" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s1-t9" name="CT09: logoff Sessão finalizada com sucesso">
+<kw name="Logoff finalizar sessão com sucesso no chrome" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.502" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.502" endtime="20181121 13:56:26.502"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.500" endtime="20181121 13:56:26.502"></status>
+</kw>
+<tags>
+<tag>logoff</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.500" endtime="20181121 13:56:26.502" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<status status="FAIL" starttime="20181121 13:56:26.233" endtime="20181121 13:56:26.502"></status>
+</suite>
+<suite id="s1-s2" name="tc.alite Firefox" source="C:\Automação\Pabot Projeto A.Lite\Test\tc.alite_Firefox.robot">
+<test id="s1-s2-t1" name="CT01: login Usuário Inválido">
+<kw name="Usuário inválido, senha válida no firefox" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.445" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.445" endtime="20181121 13:56:26.445"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.442" endtime="20181121 13:56:26.445"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.442" endtime="20181121 13:56:26.445" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s2-t2" name="CT02: login Senha Inválida">
+<kw name="Usuário válido, senha inválida no firefox" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.447" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.447" endtime="20181121 13:56:26.447"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.445" endtime="20181121 13:56:26.447"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.445" endtime="20181121 13:56:26.447" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s2-t3" name="CT03: login Caracteres especiais">
+<kw name="Usuário caracteres Especiais, senha caracteres Especiais no firefox" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.449" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.449" endtime="20181121 13:56:26.449"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.449" endtime="20181121 13:56:26.449"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.447" endtime="20181121 13:56:26.449" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s2-t4" name="CT04: login não preenchido">
+<kw name="Não informar Usuário e não informar senha no firefox" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.451" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.451" endtime="20181121 13:56:26.451"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.451" endtime="20181121 13:56:26.451"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.449" endtime="20181121 13:56:26.451" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s2-t5" name="CT05: login efetuado com sucesso">
+<kw name="Usuário válido, senha válida no firefox" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.452" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.452" endtime="20181121 13:56:26.452"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.452" endtime="20181121 13:56:26.452"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.451" endtime="20181121 13:56:26.452" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s2-t6" name="CT06: login efetuado com sucesso 2">
+<kw name="Usuário válido, senha válida 2 no firefox" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.454" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.454" endtime="20181121 13:56:26.454"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.452" endtime="20181121 13:56:26.454"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.452" endtime="20181121 13:56:26.454" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s2-t7" name="CT07: Navegação Lista de exames">
+<kw name="Efetuar Login no A.Lite com firefox" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.456" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.456" endtime="20181121 13:56:26.456"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.454" endtime="20181121 13:56:26.456"></status>
+</kw>
+<tags>
+<tag>Navegação</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.454" endtime="20181121 13:56:26.456" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s2-t8" name="CT08: Navegação Configurações">
+<kw name="Na página home ao logar no firefox" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.458" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.458" endtime="20181121 13:56:26.458"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.456" endtime="20181121 13:56:26.458"></status>
+</kw>
+<tags>
+<tag>Navegação</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.456" endtime="20181121 13:56:26.458" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s2-t9" name="CT09: logoff Sessão finalizada com sucesso">
+<kw name="Logoff finalizar sessão com sucesso no firefox" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.460" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.460" endtime="20181121 13:56:26.460"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.458" endtime="20181121 13:56:26.460"></status>
+</kw>
+<tags>
+<tag>logoff</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.458" endtime="20181121 13:56:26.460" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<status status="FAIL" starttime="20181121 13:56:26.205" endtime="20181121 13:56:26.460"></status>
+</suite>
+<suite id="s1-s3" name="tc.alite IE" source="C:\Automação\Pabot Projeto A.Lite\Test\tc.alite_IE.robot">
+<test id="s1-s3-t1" name="CT01: login Usuário Inválido">
+<kw name="Usuário inválido, senha válida no internet explorer" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.516" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.514" endtime="20181121 13:56:26.516"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.514" endtime="20181121 13:56:26.516"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.514" endtime="20181121 13:56:26.516" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s3-t2" name="CT02: login Senha Inválida">
+<kw name="Usuário válido, senha inválida no internet explorer" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.518" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.518" endtime="20181121 13:56:26.518"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.516" endtime="20181121 13:56:26.518"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.516" endtime="20181121 13:56:26.518" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s3-t3" name="CT03: login Caracteres especiais">
+<kw name="Usuário caracteres Especiais, senha caracteres Especiais no internet explorer" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.520" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.520" endtime="20181121 13:56:26.520"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.518" endtime="20181121 13:56:26.520"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.518" endtime="20181121 13:56:26.520" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s3-t4" name="CT04: login não preenchido">
+<kw name="Não informar Usuário e não informar senha no internet explorer" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.522" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.522" endtime="20181121 13:56:26.522"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.520" endtime="20181121 13:56:26.522"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.520" endtime="20181121 13:56:26.522" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s3-t5" name="CT05: login efetuado com sucesso">
+<kw name="Usuário válido, senha válida no internet explorer" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.524" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.524" endtime="20181121 13:56:26.524"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.522" endtime="20181121 13:56:26.524"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.522" endtime="20181121 13:56:26.524" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s3-t6" name="CT06: login efetuado com sucesso 2">
+<kw name="Usuário válido, senha válida 2 no internet explorer" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.526" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.526" endtime="20181121 13:56:26.526"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.524" endtime="20181121 13:56:26.526"></status>
+</kw>
+<tags>
+<tag>login</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.524" endtime="20181121 13:56:26.526" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s3-t7" name="CT07: Navegação Lista de exames">
+<kw name="Efetuar Login no A.Lite com internet explorer" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.528" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.528" endtime="20181121 13:56:26.528"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.526" endtime="20181121 13:56:26.528"></status>
+</kw>
+<tags>
+<tag>Navegação</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.526" endtime="20181121 13:56:26.528" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s3-t8" name="CT08: Navegação Configurações">
+<kw name="Na página home ao logar no internet explorer" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.530" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.530" endtime="20181121 13:56:26.530"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.528" endtime="20181121 13:56:26.530"></status>
+</kw>
+<tags>
+<tag>Navegação</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.528" endtime="20181121 13:56:26.530" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<test id="s1-s3-t9" name="CT09: logoff Sessão finalizada com sucesso">
+<kw name="Logoff finalizar sessão com sucesso no internet explorer" library="resource">
+<kw name="open browser">
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20181121 13:56:26.532" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181121 13:56:26.532" endtime="20181121 13:56:26.532"></status>
+</kw>
+<status status="FAIL" starttime="20181121 13:56:26.530" endtime="20181121 13:56:26.532"></status>
+</kw>
+<tags>
+<tag>logoff</tag>
+</tags>
+<status status="FAIL" starttime="20181121 13:56:26.530" endtime="20181121 13:56:26.532" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<status status="FAIL" starttime="20181121 13:56:26.271" endtime="20181121 13:56:26.532"></status>
+</suite>
+<status status="FAIL" starttime="20181121 13:56:26.187" endtime="20181121 13:56:26.532"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="27">Critical Tests</stat>
+<stat pass="0" fail="27">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="18">login</stat>
+<stat pass="0" fail="3">logoff</stat>
+<stat pass="0" fail="6">Navegação</stat>
+</tag>
+<suite>
+<stat pass="0" fail="27" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="9" id="s1-s1" name="Tc.Alite Chrome">Suites.Tc.Alite Chrome</stat>
+<stat pass="0" fail="9" id="s1-s2" name="tc.alite Firefox">Suites.tc.alite Firefox</stat>
+<stat pass="0" fail="9" id="s1-s3" name="tc.alite IE">Suites.tc.alite IE</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181121 13:56:26.243" level="ERROR">Error in file 'C:\Automação\Pabot Projeto A.Lite\Resource\resource.robot': Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Program Files\Python36\python36.zip
+  C:\Program Files\Python36\DLLs
+  C:\Program Files\Python36\lib
+  C:\Program Files\Python36
+  C:\Program Files\Python36\lib\site-packages</msg>
+<msg timestamp="20181121 13:56:26.215" level="ERROR">Error in file 'C:\Automação\Pabot Projeto A.Lite\Resource\resource.robot': Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Program Files\Python36\python36.zip
+  C:\Program Files\Python36\DLLs
+  C:\Program Files\Python36\lib
+  C:\Program Files\Python36
+  C:\Program Files\Python36\lib\site-packages</msg>
+<msg timestamp="20181121 13:56:26.282" level="ERROR">Error in file 'C:\Automação\Pabot Projeto A.Lite\Resource\resource.robot': Importing test library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Program Files\Python36\python36.zip
+  C:\Program Files\Python36\DLLs
+  C:\Program Files\Python36\lib
+  C:\Program Files\Python36
+  C:\Program Files\Python36\lib\site-packages</msg>
+</errors>
+</robot>
