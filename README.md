@@ -4,4 +4,4 @@ Obs:  Material apenas para uso como referência, *esse projeto roda somente na a
 -------------------------------------------------------------------------------------------------------------
 
 # robot-pabot
-Teste Automaçã Robot framework Usando Pabot.
+Teste Automação Robot framework Usando Pabot.
